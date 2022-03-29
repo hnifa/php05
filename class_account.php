@@ -9,9 +9,9 @@ class Account{
         $this->nama = $nama;
         $this->saldo = $saldo;
     }
-public function daftar(){
+    public function daftar(){
     echo "<hr>{$this->nomor} {$this->nama} {$this->saldo}";
-}
+    }
 }
 
 class accountBank extends Account{
@@ -30,7 +30,7 @@ class accountBank extends Account{
 
 <!DOCTYPE html>
 <head>
-
+    <title>Praktikum 5</title>
 </head>
 <?php
 $p1 = ['id'=> 1, 'nomor' => 'C001', 'nama' => 'Ahmad', 'saldo' => 6000000];
