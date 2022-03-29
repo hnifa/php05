@@ -18,12 +18,10 @@ class accountBank extends Account{
     public function nabung($uang){
         $this->saldo = $this->saldo + $uang;
         echo "<br>{$this->nama} nabung $uang maka saldonya menjadi {$this->saldo}<br>";
-
     }
     public function tarik($uang){
         $this->saldo = $this->saldo - $uang;
         echo "<br>{$this->nama} tarik uang $uang maka saldonya menjadi {$this->saldo}<br>";
-
     }
 }
 ?>
